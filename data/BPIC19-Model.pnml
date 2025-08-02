@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="ptNet_1" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>ptNet_1</text>
+    </name>
+    <page id="ptnet_page_1">
+      <place id="place_1">
+        <graphics>
+          <position x="-515" y="-5"/>
+        </graphics>
+        <initialMarking>
+          <text>1</text>
+          <graphics>
+            <offset x="22" y="20"/>
+          </graphics>
+        </initialMarking>
+      </place>
+      <place id="Place_85f1gorfjau3li0sbl5645czk">
+        <graphics>
+          <position x="-425" y="-115"/>
+        </graphics>
+      </place>
+      <place id="Place_4svqmza1ppz1nd7uz78ll15j6">
+        <graphics>
+          <position x="-335" y="-5"/>
+        </graphics>
+      </place>
+      <place id="Place_0660zf7jlvw8ctasr0a1m3u7q">
+        <graphics>
+          <position x="-165" y="-75"/>
+        </graphics>
+      </place>
+      <place id="Place_e6zmfqk1jf3ymp47heo5oxeno">
+        <graphics>
+          <position x="-175" y="75"/>
+        </graphics>
+      </place>
+      <place id="Place_ay3huk5jnkkrghdpxpdc3pomx">
+        <graphics>
+          <position x="-25" y="-55"/>
+        </graphics>
+      </place>
+      <place id="Place_2f073zk0jtf7q7bmufgjuees5">
+        <graphics>
+          <position x="-35" y="55"/>
+        </graphics>
+      </place>
+      <place id="Place_6m120u2r2mcxjon2ihth2fl8b">
+        <graphics>
+          <position x="135" y="-115"/>
+        </graphics>
+      </place>
+      <place id="Place_994g1qe1g3nc8b8ic2grv3gep">
+        <graphics>
+          <position x="295" y="-95"/>
+        </graphics>
+      </place>
+      <place id="Place_cvef4llspztbruf5kyy9f7dpd">
+        <graphics>
+          <position x="295" y="-5"/>
+        </graphics>
+      </place>
+      <place id="Place_0cw1xy49s00b7peds8zhsg8gm">
+        <graphics>
+          <position x="525" y="55"/>
+        </graphics>
+      </place>
+      <place id="Place_4xqfw8wjcva92em5nqcswipoh">
+        <graphics>
+          <position x="725" y="5"/>
+        </graphics>
+      </place>
+      <place id="Place_3dywskoubg8cn9ha4x1fcl0vm">
+        <graphics>
+          <position x="625" y="175"/>
+        </graphics>
+      </place>
+      <place id="Place_b6m4ot2rbi3bf7zrb37d7qkyq">
+        <graphics>
+          <position x="455" y="-95"/>
+        </graphics>
+      </place>
+      <place id="Place_ca34xxqmdckqjrovsoifvfsdj">
+        <graphics>
+          <position x="455" y="-5"/>
+        </graphics>
+      </place>
+      <transition id="Transition_bj0lq99llpw08f5zwf5589el9">
+        <name>
+          <text>CPRI</text>
+        </name>
+        <graphics>
+          <position x="-515" y="-115"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_a2ok125vb03nqmo7zzh2yxggl">
+        <name>
+          <text>CPOI</text>
+        </name>
+        <graphics>
+          <position x="-425" y="-5"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_0mmplx1lrrn7dzpu2tjkgw6py">
+        <name>
+          <text>ROC</text>
+        </name>
+        <graphics>
+          <position x="-255" y="-75"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_ap5vcgyp0s2p3pc4x07xwgn79">
+        <name>
+          <text>CP</text>
+        </name>
+        <graphics>
+          <position x="-255" y="75"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_djt5wr6629t9q8t6uool75ejj">
+        <name>
+          <text>tau</text>
+        </name>
+        <graphics>
+          <position x="-95" y="5"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_1gt6umsju5nvwihsr2yrnafan">
+        <name>
+          <text>VCI</text>
+        </name>
+        <graphics>
+          <position x="55" y="55"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_admlyr92l04swikuf8sfi2sv4">
+        <name>
+          <text>CQ</text>
+        </name>
+        <graphics>
+          <position x="55" y="-115"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_dzbcsgvwnpj8xar4opmx4yjeq">
+        <name>
+          <text>tau</text>
+        </name>
+        <graphics>
+          <position x="215" y="-55"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_9624u806lx8zuz0u46dtpp14s">
+        <name>
+          <text>RGR</text>
+        </name>
+        <graphics>
+          <position x="375" y="-95"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_9l4tnyop5juigyz5ezz9rvaqz">
+        <name>
+          <text>RIR</text>
+        </name>
+        <graphics>
+          <position x="375" y="-5"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_e7j7m45568vgrqjclaxtu7aac">
+        <name>
+          <text>RBP</text>
+        </name>
+        <graphics>
+          <position x="625" y="5"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_9w1rj5ntvrhqg5pzii0im9065">
+        <name>
+          <text>CI</text>
+        </name>
+        <graphics>
+          <position x="625" y="95"/>
+        </graphics>
+      </transition>
+      <transition id="Transition_casnt87j83zb6a46aekxtcxvd">
+        <name>
+          <text>tau</text>
+        </name>
+        <graphics>
+          <position x="525" y="-55"/>
+        </graphics>
+      </transition>
+      <arc id="Arc_eb3ra3v6qvfg3iz8n9zvxcabv" source="place_1" target="Transition_bj0lq99llpw08f5zwf5589el9"/>
+      <arc id="Arc_74u9fs2wh9447wc5402710r75" source="place_1" target="Transition_a2ok125vb03nqmo7zzh2yxggl"/>
+      <arc id="Arc_ac29qmnurrdfkse6fkjitzip3" source="Transition_bj0lq99llpw08f5zwf5589el9" target="Place_85f1gorfjau3li0sbl5645czk"/>
+      <arc id="Arc_bv7ypgqpptfwby8wngdxxyr8z" source="Place_85f1gorfjau3li0sbl5645czk" target="Transition_a2ok125vb03nqmo7zzh2yxggl"/>
+      <arc id="Arc_3fgnudxqys1fwao5okxqxz1ht" source="Transition_a2ok125vb03nqmo7zzh2yxggl" target="Place_4svqmza1ppz1nd7uz78ll15j6"/>
+      <arc id="Arc_4o52g15mc8c6kqn1r2202dg64" source="Place_4svqmza1ppz1nd7uz78ll15j6" target="Transition_0mmplx1lrrn7dzpu2tjkgw6py"/>
+      <arc id="Arc_egjzjf8k77traws47zipzet8v" source="Place_4svqmza1ppz1nd7uz78ll15j6" target="Transition_ap5vcgyp0s2p3pc4x07xwgn79"/>
+      <arc id="Arc_3iwt2e0nyi4p1t9rw773dsmgo" source="Transition_0mmplx1lrrn7dzpu2tjkgw6py" target="Place_0660zf7jlvw8ctasr0a1m3u7q"/>
+      <arc id="Arc_9xkngrn5c5a474adq4ufeorhj" source="Transition_ap5vcgyp0s2p3pc4x07xwgn79" target="Place_e6zmfqk1jf3ymp47heo5oxeno"/>
+      <arc id="Arc_9bv93cp9sffe25ilkrw0p9t64" source="Place_e6zmfqk1jf3ymp47heo5oxeno" target="Transition_djt5wr6629t9q8t6uool75ejj"/>
+      <arc id="Arc_6bcs1cujezh5pbxjg9rky1ep6" source="Place_4svqmza1ppz1nd7uz78ll15j6" target="Transition_djt5wr6629t9q8t6uool75ejj"/>
+      <arc id="Arc_12ym094d4pahao024h27ggbsh" source="Place_0660zf7jlvw8ctasr0a1m3u7q" target="Transition_djt5wr6629t9q8t6uool75ejj"/>
+      <arc id="Arc_8softxfvxsuynds2zj4p1r5ij" source="Transition_djt5wr6629t9q8t6uool75ejj" target="Place_ay3huk5jnkkrghdpxpdc3pomx"/>
+      <arc id="Arc_2d0kcgpm5n7ea1g66ol2oy5tm" source="Transition_djt5wr6629t9q8t6uool75ejj" target="Place_2f073zk0jtf7q7bmufgjuees5"/>
+      <arc id="Arc_0cjyx24374ovmrpg4iin92bdc" source="Place_2f073zk0jtf7q7bmufgjuees5" target="Transition_1gt6umsju5nvwihsr2yrnafan"/>
+      <arc id="Arc_7p2cre1h00cm202gebocnh0er" source="Place_ay3huk5jnkkrghdpxpdc3pomx" target="Transition_admlyr92l04swikuf8sfi2sv4"/>
+      <arc id="Arc_52j7ciks27nfj3a44ovnazv1m" source="Transition_admlyr92l04swikuf8sfi2sv4" target="Place_6m120u2r2mcxjon2ihth2fl8b"/>
+      <arc id="Arc_ecd502cljjekm4r6zeai5ov91" source="Place_6m120u2r2mcxjon2ihth2fl8b" target="Transition_dzbcsgvwnpj8xar4opmx4yjeq"/>
+      <arc id="Arc_8xlf9tifkxfwh6xmdvi6f03zd" source="Place_ay3huk5jnkkrghdpxpdc3pomx" target="Transition_dzbcsgvwnpj8xar4opmx4yjeq"/>
+      <arc id="Arc_3o2hotimxet1iwwinp88ccfpn" source="Transition_dzbcsgvwnpj8xar4opmx4yjeq" target="Place_994g1qe1g3nc8b8ic2grv3gep"/>
+      <arc id="Arc_bj7jvqg1qydidtx0z94bbbvv0" source="Transition_dzbcsgvwnpj8xar4opmx4yjeq" target="Place_cvef4llspztbruf5kyy9f7dpd"/>
+      <arc id="Arc_50s5oyjly0slp111994rx1z4v" source="Place_994g1qe1g3nc8b8ic2grv3gep" target="Transition_9624u806lx8zuz0u46dtpp14s"/>
+      <arc id="Arc_1ex3kviypq8enqk7jwp85paxx" source="Place_cvef4llspztbruf5kyy9f7dpd" target="Transition_9l4tnyop5juigyz5ezz9rvaqz"/>
+      <arc id="Arc_3nkte3xoq9xj42uyh249ce8gs" source="Transition_1gt6umsju5nvwihsr2yrnafan" target="Place_0cw1xy49s00b7peds8zhsg8gm"/>
+      <arc id="Arc_3y5otnfbl32fvhbolcoruu4zs" source="Place_0cw1xy49s00b7peds8zhsg8gm" target="Transition_e7j7m45568vgrqjclaxtu7aac"/>
+      <arc id="Arc_05qqa8thodelkojtan6m7ovnp" source="Place_0cw1xy49s00b7peds8zhsg8gm" target="Transition_9w1rj5ntvrhqg5pzii0im9065"/>
+      <arc id="Arc_9vpj8iro2uwbedvlp87xbzagm" source="Transition_e7j7m45568vgrqjclaxtu7aac" target="Place_4xqfw8wjcva92em5nqcswipoh"/>
+      <arc id="Arc_2yu4k0h7qqrwfisvjuysdfnwn" source="Place_4xqfw8wjcva92em5nqcswipoh" target="Transition_9w1rj5ntvrhqg5pzii0im9065"/>
+      <arc id="Arc_2hkm5xronlho615yzwzdlm1jx" source="Transition_9w1rj5ntvrhqg5pzii0im9065" target="Place_3dywskoubg8cn9ha4x1fcl0vm"/>
+      <arc id="Arc_6wigmvwmeto0th42oid0k8rvw" source="Transition_9624u806lx8zuz0u46dtpp14s" target="Place_b6m4ot2rbi3bf7zrb37d7qkyq"/>
+      <arc id="Arc_4bre53dkmkizxhpgzpdpmoxxk" source="Transition_9l4tnyop5juigyz5ezz9rvaqz" target="Place_ca34xxqmdckqjrovsoifvfsdj"/>
+      <arc id="Arc_9ry1qct92iajkbitcgg1s1ab8" source="Place_b6m4ot2rbi3bf7zrb37d7qkyq" target="Transition_casnt87j83zb6a46aekxtcxvd"/>
+      <arc id="Arc_1lgj7pztv6zbudvz3sucxsq24" source="Place_ca34xxqmdckqjrovsoifvfsdj" target="Transition_casnt87j83zb6a46aekxtcxvd"/>
+      <arc id="Arc_bny0u1f2jno5u5wf2xkc5zfg2" source="Transition_casnt87j83zb6a46aekxtcxvd" target="Place_0cw1xy49s00b7peds8zhsg8gm"/>
+    </page>
+  </net>
+</pnml>
