@@ -59,7 +59,7 @@ def generate_declarative_constraints_function(df):
                             declarativeConstraints.append(constraint) 
                     
                     
-                    pairSecondValueFlag=isOptionalActivity(pair[1],df,directlyFollowsSet)
+                    pairSecondValueFlag=isOptionalActivity(pair[1],df)
                     if pairSecondValueFlag==False and df.at[value[0],pair[1]]!='||':
                         constraint=f"AlternateResponse({value[0]},{pair[1]})"     
                         if constraint not in declarativeConstraints:
