@@ -96,8 +96,8 @@ def compute_transitive_closure(D):
         visited = set(to_visit)
         while to_visit:
             current_node = to_visit.pop()
-            if current_node != start_node:
-                transitive_closure_set.add((start_node, current_node))
+            #if current_node != start_node:
+            transitive_closure_set.add((start_node, current_node))
             for neighbor in adj.get(current_node, []):
                 if neighbor not in visited:
                     visited.add(neighbor)

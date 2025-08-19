@@ -1,3 +1,9 @@
+# TODO replace "START" -> X with Init{X} constraint
+# TODO transitive closure for loops of length 2
+
+
+
+
 import pytest
 import pandas as pd
 from refactored import (
