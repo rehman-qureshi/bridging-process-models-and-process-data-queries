@@ -186,6 +186,51 @@ def generate_binary_constraints(D, E):
     return C
 
 
+# --- Relaxation Logic ---
+
+def relax_remove_activity(df: pd.DataFrame, activity: str) -> pd.DataFrame:
+    """
+    Makes an activity optional and allows it to appear anywhere by setting
+    all its relationships with other activities to '≺≻'.
+    """
+    df_relaxed = df.copy()
+    if activity in df_relaxed.index:
+        for other_activity in df_relaxed.index:
+            if activity != other_activity:
+                df_relaxed.loc[activity, other_activity] = '≺≻'
+                df_relaxed.loc[other_activity, activity] = '≺≻'
+    return df_relaxed
+
+def relax_remove_all_relationships(df: pd.DataFrame, act1: str, act2: str) -> pd.DataFrame:
+    """
+    Makes two activities independent by setting their relationship to '≺≻'.
+    """
+    df_relaxed = df.copy()
+    df_relaxed.loc[act1, act2] = '≺≻'
+    df_relaxed.loc[act2, act1] = '≺≻'
+    return df_relaxed
+
+def relax_exclusive_to_direct(df: pd.DataFrame, source: str, target: str) -> pd.DataFrame:
+    """
+    Turns a non-existent relation ('-') into a direct one ('→' and '←').
+    """
+    df_relaxed = df.copy()
+    if df_relaxed.loc[source, target] == '-':
+        df_relaxed.loc[source, target] = '→'
+        df_relaxed.loc[target, source] = '←'
+    return df_relaxed
+
+def relax_direct_to_indirect(df: pd.DataFrame, source: str, target: str) -> pd.DataFrame:
+    """
+    Turns a direct relation ('→') into an indirect one ('≺' and '≻').
+    """
+    df_relaxed = df.copy()
+    if df_relaxed.loc[source, target] == '→':
+        df_relaxed.loc[source, target] = '≺'
+        df_relaxed.loc[target, source] = '≻'
+    return df_relaxed
+
+
 # --- Display Logic ---
 def pretty_print_results(title, original_df, updated_df, D, final_E, constraints):
     """Helper function to display all results."""
